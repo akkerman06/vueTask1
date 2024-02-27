@@ -1,6 +1,6 @@
 module.exports = {
-    devServer: {
-      devtools: true
-    },
+    // devServer: {
+    //   devtools: true
+    // },
     publicPath: `/vueTask1/`
 };

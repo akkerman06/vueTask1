@@ -308,11 +308,11 @@
   margin: 0
   padding: 0
   font-family: 'Franklin Gothic Medium', sans-serif
-  
 form 
   display: flex
   flex-direction: column
   gap: 30px
+  height: auto
 
 .container 
   max-width: 600px
@@ -341,7 +341,8 @@ input, select
 
 .sms-checkbox, .checkbox 
   display: flex
-  align-items: center
+  align-items: flex-end
+  gap: 5px
 
 .checkbox
   width: 16px  
