@@ -68,7 +68,7 @@
                 <label :style="{ color: $v.createClient.phone_number.$error ? 'red' : '' }"  for="phone_number">Номер телефона*</label>
                 <template v-if="$v.createClient.phone_number.$error">
                   <span class="errorMsg" v-if="!$v.createClient.phone_number.required">{{ msgRequired }}</span>
-                  <span class="errorMsg" v-else-if="!$v.createClient.phone_number.validatePhone">Неправильный номер</span>
+                  <span class="errorMsg" v-else-if="!$v.createClient.phone_number.validatePhone">Неверный номер</span>
                 </template>
               </div>
               <input id="phone_number" type="text" v-model="createClient.phone_number" placeholder="+7 (___) ___-__-__" 
